@@ -12,5 +12,6 @@ This project deals with developing a Virtual website ‘E-commerce Website’. I
 ![Alt Text](Output/Picture2.jpg)
 ![Alt Text](Output/Picture3.jpg)
 ![Alt Text](Output/Picture4.jpg)
-![Alt Text](Output/Picture5.jpg)
+
+
 
