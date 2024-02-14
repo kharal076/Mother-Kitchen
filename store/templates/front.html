@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- Home -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  {% load static %}
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="{% static 'front.css' %}">
+
+
+  <title>Mother's Kitchen</title>
+ </head>
+ <body>
+
+<section class="home" id="home">
+  <div class="content">
+    <h1>Order  Your healthy food <span class="yellow">Easier & Faster.</span></h1>
+    <p>
+      Mother's Kitchen, a healthy food delivery service, is to offer a wide range of nutritious and flavorful meals, prepared with fresh ingredients and delivered to our customers' doorstep. Our aim is to make healthy eating convenient and enjoyable, helping individuals and families maintain a balanced and nourishing diet effortlessly.
+    </p>
+    <a href="#" class="home-btn">Go to Menu</a>
+  </div>
+  <div class="image">
+    <img src="{% static 'image\Girl Food deliver_adobe_express.svg' %}" alt="" />
+  </div>
+</section>
+
+<!-- Services -->
+<section class="services" id="services">
+  <div class="top">
+    <h2><span class="yellow">Why</span> We are the Best</h2>
+    <p>
+      Delivering the best food experience. Wide menu selection, fresh ingredients, efficient delivery, user-friendly interface, customer satisfaction, special offers, and commitment to safety. The ultimate choice for a delightful food delivery service.
+    </p>
+  </div>
+
+  <div class="bottom">
+    <div class="box">
+      <img src="{% static 'image\delivery-man.svg' %}" alt="" />
+      <h4>Free Delivery</h4>
+      <p>
+        Enjoy the convenience of free delivery with Mother Kitchen app.
+         Get your favorite meals delivered straight to your doorstep without any additional cost. 
+         Indulge in delicious food while saving on delivery charges. 
+        Experience the pleasure of seamless and affordable food delivery with Mother Kitchen.
+      </p>
+      <a href="#">View More <img src="" alt="" /> </a>
+    </div>
+    <div class="box">
+      <img src="{% static 'image\fast-food.svg' %}" alt="" />
+      <h4>Healthy Foods</h4>
+      <p>
+        Experience the goodness of healthy food with Mother Kitchen.
+         We prioritize your well-being by offering a wide range of nutritious and wholesome meals. 
+         Our menu is thoughtfully curated to provide you with delicious options that promote a balanced lifestyle. 
+        Enjoy the taste of freshness and nourishment with our selection of healthy food choices
+      </p>
+      <a href="#">View More <img src="" alt="" /> </a>
+    </div>
+    <div class="box">
+      <img src="{% static 'image\order-food.svg' %}" alt="" />
+      <h4>Online Ordering</h4>
+      <p>
+        Convenience at your fingertips! With Mother Kitchen, online ordering has never been easier.
+         Simply browse our menu, select your favorite dishes, and place your order with a few clicks. 
+         Enjoy the convenience of ordering from the comfort of your own home or on the go, and let us take care of the rest.
+         Experience seamless online ordering with Mother Kitchen and have your food delivered right to your doorstep.
+      </p>
+      <a href="#">View More <img src="" alt="" /> </a>
+    </div>
+  </div>
+</section>
+ 
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="top">
+    <div class="content">
+      <a href="#" class="logo">Mother's <span class="yellow">Kitchen</span></a>
+      <p>
+        Savor the taste of culinary delights with Mother Kitchen, where food meets perfection.
+      </p>
+    </div>
+
+    <div class="links">
+      <div class="link">
+        <h4>Contact Information</h4>
+        <div>
+          <img src="" alt="" />
+          <span>Shankhmul, kathamndu</span>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <span>kapilkharal28@gmail.com</span>
+        </div>
+      </div>
+
+      <div class="link">
+        <h4>Quick Links</h4>
+        <a href="#">Services</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+
+      <div class="link">
+        <h4>Follow Us</h4>
+        <div class="social">
+          <li> <a href="#"><img src="" alt="Facebook" /></a>
+            <a href="#"><img src="" alt="Twitter" /></a>
+            <a href="#"><img src="" alt="Instagram" /></a></li>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom">
+    <p>&copy; 2023 Mother's Kitchen<span class="yellow">roo</span>. All rights reserved.</p>
+    <div class="developer">
+      <p>Website developed by:</p>
+      <a href="">kitchen Pvt.Ltd</a>
+    </div>
+  </div>
+</footer>
+ </body>
+</html>
+{% endblock %}
